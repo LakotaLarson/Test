@@ -1,6 +1,17 @@
-/*LakotaStyle.css*/
 
+/*Formatting the background*/
+body {background:#F5BEA2; color:#6E6562;}
 
-/*Resizing an image*/
+/*Formatting the headings*/
+h1 {font-variant: small-caps;
+	color: #EA712C
+	text-decoration: underline; }
+h2 {color: #EA712C
+	text-decoration: underline;}
+h3 {color: #E1621E
+	text-decoration: underline;}
 
-<img src="BAP_Officers.jpg" width="200" height="121" alt="Me">
+/*Changing link colors*/
+a:link, a:visited {
+	text-decoration:none;
+	color:#E1621E;}
