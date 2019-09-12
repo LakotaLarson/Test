@@ -6,7 +6,7 @@ body {background:#4E5263; color:white;}
 h4 {font-family: 'Arial Bold', sans-serif;
 	color: #4E5263
 	text-decoration: underline; }
-h2 {color: #EA712C; 
+h2 {color: #0D1C61; 
 	font-variant: small-caps;
 	text-decoration: underline;}
 h3 {color: #E1621E
@@ -25,8 +25,7 @@ a:link, a:visited {
 	color: white
 	position: absolute ;
 	top: 8 px;
-	left: 10 px;}
-
+/*Created special formatting for the navigation bar with padd*/
 .menubar
 {display: block;
   padding: 5px}
