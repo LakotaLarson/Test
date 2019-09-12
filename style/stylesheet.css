@@ -1,12 +1,13 @@
 
 /*Formatting the background*/
-body {background:#F5BEA2; color:#6E6562;}
+body {background:#4E5263; color:white;}
 
 /*Formatting the headings*/
-h1 {font-variant: small-caps;
-	color: #EA712C
+h4 {font-family: 'Arial Bold', sans-serif;
+	color: #4E5263
 	text-decoration: underline; }
-h2 {color: #EA712C
+h2 {color: #EA712C; 
+	font-variant: small-caps;
 	text-decoration: underline;}
 h3 {color: #E1621E
 	text-decoration: underline;}
@@ -14,4 +15,18 @@ h3 {color: #E1621E
 /*Changing link colors*/
 a:link, a:visited {
 	text-decoration:none;
-	color:#E1621E;}
+	color:#637BE6;
+	} /*changing to a blue*/
+	
+/*Laying text over an image*/
+.container {position: relative;
+   opacity: 0.5 }
+.topleft {font-family: 'Roboto';
+	color: white
+	position: absolute ;
+	top: 8 px;
+	left: 10 px;}
+
+.menubar
+{display: block;
+  padding: 5px}
